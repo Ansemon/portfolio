@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adriam Aristizábal — Portafolio</title>
+  <meta name="description" content="Portafolio y documentos de Adriam Aristizábal.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <a class="brand" href="index.html">Adriam Aristizábal</a>
+    <nav class="nav">
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="documents.html">Documents</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow">// portfolio &amp; documents</p>
+      <h1>Data pipelines,<br>dashboards, and<br>documentation.</h1>
+      <p class="hero-sub">Data Science student working on analytics pipelines, BI dashboards, and the occasional stubborn funnel that finally behaves.</p>
+    </section>
+
+    <section class="cards">
+      <a class="card" href="about.html">
+        <span class="card-path">/about</span>
+        <h2>About</h2>
+        <p>Background, tools, and what I'm currently working on.</p>
+      </a>
+      <a class="card" href="projects.html">
+        <span class="card-path">/projects</span>
+        <h2>Projects</h2>
+        <p>Selected analytics and data engineering work.</p>
+      </a>
+      <a class="card" href="documents.html">
+        <span class="card-path">/documents</span>
+        <h2>Documents</h2>
+        <p>CV and reports, available as PDF downloads.</p>
+      </a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>&copy; <span id="year"></span> Adriam Aristizábal</span>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

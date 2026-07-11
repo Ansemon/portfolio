@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About — Adriam Aristizábal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <a class="brand" href="index.html">Adriam Aristizábal</a>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="about.html" aria-current="page">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="documents.html">Documents</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <p class="eyebrow">// about</p>
+      <h1>About me</h1>
+      <p>Data Science student at Universidad del Norte (Barranquilla, Colombia), currently on a professional internship at Promigas S.A. E.S.P. in the Mercado y Growth area.</p>
+    </section>
+
+    <section class="content-block">
+      <h2>Background</h2>
+      <p>My work at Promigas centers on digital analytics, BI dashboard development, and data pipeline engineering for the Brilla brand and its sub-brands (GDO, Surtigas, CEO, Quavii, Acceso Perú). Outside the internship, I work on independent projects spanning geospatial accident-severity modeling, EEG-based biomarker analysis, NLP text classification, and financial time-series forecasting — a few of these are linked under Projects and Documents.</p>
+
+      <h2>Tools</h2>
+      <div class="tag-row">
+        <span class="tag">Python</span>
+        <span class="tag">R</span>
+        <span class="tag">SQL</span>
+        <span class="tag">Databricks / PySpark</span>
+        <span class="tag">BigQuery</span>
+        <span class="tag">Looker Studio</span>
+        <span class="tag">Power BI (DAX)</span>
+        <span class="tag">GA4</span>
+        <span class="tag">GTM</span>
+        <span class="tag">Docker</span>
+        <span class="tag">Git</span>
+        <span class="tag">Scikit-learn</span>
+        <span class="tag">TensorFlow</span>
+      </div>
+
+      <h2>Currently</h2>
+      <p>Building a Looker Studio payment funnel dashboard for GDO's Oficina Virtual, blending route-based and CTA-based conversion steps from GA4 into a single funnel view.</p>
+
+      <h2>Outside of work</h2>
+      <p>Building a new PC, and slowly learning Japanese as a third language — chosen partly because progress is easy to measure early on.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>&copy; <span id="year"></span> Adriam Aristizábal</span>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Documents — Adriam Aristizábal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <a class="brand" href="index.html">Adriam Aristizábal</a>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="documents.html" aria-current="page">Documents</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <p class="eyebrow">// documents</p>
+      <h1>Documents</h1>
+      <p>CV and reports, hosted directly in this repository under <code>/pdfs</code>.</p>
+    </section>
+
+    <section class="doc-list">
+      <div class="doc-row">
+        <span class="doc-icon">PDF</span>
+        <div class="doc-info">
+          <span class="doc-name">CV — English</span>
+          <span class="doc-meta">pdfs/Adriam_Aristizabal_EN.pdf</span>
+        </div>
+        <a class="doc-download" href="pdfs/Adriam_Aristizabal_EN.pdf" download>Download</a>
+      </div>
+
+      <div class="doc-row">
+        <span class="doc-icon">PDF</span>
+        <div class="doc-info">
+          <span class="doc-name">CV — Español</span>
+          <span class="doc-meta">pdfs/Adriam_Aristizabal_ES.pdf</span>
+        </div>
+        <a class="doc-download" href="pdfs/Adriam_Aristizabal_ES.pdf" download>Download</a>
+      </div>
+
+      <div class="doc-row">
+        <span class="doc-icon">PDF</span>
+        <div class="doc-info">
+          <span class="doc-name">Predicción geográfica de severidad y volumen de accidentes de tráfico</span>
+          <span class="doc-meta">pdfs/Prediccion geografica de severidad y volumen de accidentes de trafico.pdf</span>
+        </div>
+        <a class="doc-download" href="pdfs/Prediccion geografica de severidad y volumen de accidentes de trafico.pdf" download>Download</a>
+      </div>
+
+      <div class="doc-row">
+        <span class="doc-icon">PDF</span>
+        <div class="doc-info">
+          <span class="doc-name">Análisis de biomarcadores para el diagnóstico de trastorno depresivo mayor</span>
+          <span class="doc-meta">pdfs/Analisis de  biomarcadores para el diagnostico de trastorno depresivo mayor.pdf</span>
+        </div>
+        <a class="doc-download" href="pdfs/Analisis de  biomarcadores para el diagnostico de trastorno depresivo mayor.pdf" download>Download</a>
+      </div>
+
+      <p class="doc-note">
+        These four rows point to filenames — the actual PDFs still need to be dropped into /pdfs
+        (see instructions below). File names must match exactly, character for character.
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>&copy; <span id="year"></span> Adriam Aristizábal</span>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
