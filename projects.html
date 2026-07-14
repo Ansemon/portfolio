@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Projects — Adriam Aristizábal</title>
+  <title>Proyectos — Adriam Aristizábal</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -13,40 +13,46 @@
 
   <header class="site-header">
     <a class="brand" href="index.html">Adriam Aristizábal</a>
-    <nav class="nav">
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="projects.html" aria-current="page">Projects</a>
-      <a href="documents.html">CV</a>
-    </nav>
+    <div class="header-right">
+      <nav class="nav">
+        <a href="index.html">Inicio</a>
+        <a href="about.html">Sobre mí</a>
+        <a href="projects.html" aria-current="page">Proyectos</a>
+        <a href="documents.html">Currículum</a>
+      </nav>
+      <div class="lang-switch">
+        <span class="lang-current">ES</span>
+        <a class="lang-option" href="en/projects.html">EN</a>
+      </div>
+    </div>
   </header>
 
   <main>
     <section class="page-hero">
-      <p class="eyebrow">// projects</p>
-      <h1>Projects</h1>
-      <p>Independent analysis projects — two as full notebooks, two as PDF reports.</p>
+      <p class="eyebrow">// proyectos</p>
+      <h1>Proyectos</h1>
+      <p>Modelos y análisis independientes: de clasificación de texto y series de tiempo, hasta accidentes de tráfico y señales biomédicas.</p>
     </section>
 
     <section class="content-block">
       <div class="project-row">
-        <h3>Resume Classification with Deep Learning</h3>
-        <p>Multiclass NLP classification of resumes into 24 professional categories, comparing FastText, BiLSTM, CNN-1D, XGBoost, and DistilBERT, with a deep EDA on class overlap and semantic confusion. <a href="https://ansemon.github.io/DLP2/general_analysis.html" target="_blank" rel="noopener" style="color:var(--accent)">View analysis →</a></p>
+        <h3>Clasificación de Currículums con Deep Learning</h3>
+        <p>Clasificación multiclase de currículums en 24 categorías profesionales mediante NLP, comparando FastText, BiLSTM, CNN-1D, XGBoost y DistilBERT, con un EDA profundo sobre el solapamiento y la confusión semántica entre clases. <a href="https://ansemon.github.io/DLP2/general_analysis.html" target="_blank" rel="noopener" style="color:var(--accent)">Ver análisis →</a></p>
       </div>
 
       <div class="project-row">
-        <h3>Bitcoin Price &amp; Volatility Forecasting</h3>
-        <p>Deep learning system (MLP) predicting Bitcoin's daily close price and volatility from lagged return features, with time-aware cross-validation and a FastAPI/Docker deployment layer. <a href="https://ansemon.github.io/proybtc/intro.html" target="_blank" rel="noopener" style="color:var(--accent)">View analysis →</a></p>
+        <h3>Predicción de Precio y Volatilidad de Bitcoin</h3>
+        <p>Sistema de deep learning (MLP) que predice el precio de cierre diario y la volatilidad de Bitcoin a partir de variables de retorno rezagadas, con validación cruzada temporal y una capa de despliegue con FastAPI/Docker. <a href="https://ansemon.github.io/proybtc/intro.html" target="_blank" rel="noopener" style="color:var(--accent)">Ver análisis →</a></p>
       </div>
 
       <div class="project-row">
-        <h3>Geographic Accident Severity Prediction</h3>
-        <p>Academic project modeling the geographic severity and volume of traffic accidents. <a href="pdfs/Prediccion geografica de severidad y volumen de accidentes de trafico.pdf" target="_blank" rel="noopener" style="color:var(--accent)">View PDF →</a></p>
+        <h3>Predicción Geográfica de Severidad de Accidentes</h3>
+        <p>Proyecto académico que modela la severidad y el volumen geográfico de accidentes de tráfico. <a href="pdfs/Prediccion geografica de severidad y volumen de accidentes de trafico.pdf" target="_blank" rel="noopener" style="color:var(--accent)">Ver PDF →</a></p>
       </div>
 
       <div class="project-row">
-        <h3>EEG Biomarkers for MDD Diagnosis</h3>
-        <p>Academic project analyzing EEG-derived biomarkers for diagnosing major depressive disorder. <a href="pdfs/Analisis de  biomarcadores para el diagnostico de trastorno depresivo mayor.pdf" target="_blank" rel="noopener" style="color:var(--accent)">View PDF →</a></p>
+        <h3>Biomarcadores de EEG para Diagnóstico de TDM</h3>
+        <p>Proyecto académico que analiza biomarcadores derivados de EEG para el diagnóstico del trastorno depresivo mayor. <a href="pdfs/Analisis de  biomarcadores para el diagnostico de trastorno depresivo mayor.pdf" target="_blank" rel="noopener" style="color:var(--accent)">Ver PDF →</a></p>
       </div>
     </section>
   </main>
